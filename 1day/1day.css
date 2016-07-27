@@ -1,0 +1,41 @@
+div
+{
+	width : 100%;
+	border-bottom: 1px dashed;
+	border-color: #B3B3B3;
+	padding: 5px;
+}
+
+form
+{
+	margin: auto;
+	padding: 20px;
+	width: 450px;
+}
+
+legend
+{
+	font-size: medium;
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+.register
+{
+	background-color: #D4DDF5;
+	width: 500px;
+	height: 350px;
+	border: 0;
+}
+
+button
+{
+	display: inline-block;
+	margin: 5px 0px 0px 159px;
+}
+
+label
+{
+	display: inline-block;
+	width: 150px;
+}
