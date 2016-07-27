@@ -1,0 +1,82 @@
+.main
+{
+	background-color: #FAF5D7;
+	width: 550px;
+	border: medium solid orange;
+	border-radius: 15px;
+	margin: 20px auto;
+	padding: 30px 30px 30px 30px;
+}
+
+.main_picture
+{
+	float: left;
+}
+
+.paragraph1
+{
+	text-indent: 20px;
+	font-weight: bold;
+	font-family: arial;
+	font-style: italic;
+}
+
+.paragraph2
+{
+	text-indent: 20px;
+	font-weight: bolder;
+	font-family: "Times New Roman";
+
+}
+
+.paragraph3
+{
+	text-indent: 20px;
+	font-weight: lighter;
+	font-style: oblique;
+	font-size: large;
+
+}
+
+.letter
+{
+	color: red;
+	font-size: 150%;
+	bottom: 5px;
+	font-family: serif;
+}
+
+.addition
+{
+	color: #686666;
+}
+
+.link-icon
+{
+	text-align: right;
+}
+
+h3
+{
+	color: #5D5D5D;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+a
+{
+	color: #8E3D00;
+	text-decoration: none;
+}
+
+h1
+{
+	display: block;
+    font-size: 2em;
+}
+
+li
+{
+	margin-bottom: 5px;
+	font-size: large;
+}
