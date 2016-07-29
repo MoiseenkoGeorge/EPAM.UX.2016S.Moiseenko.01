@@ -1,0 +1,105 @@
+
+body 
+{
+  font-family: 'Droid Sans', sans-serif;
+  background-color: #FAE19D
+}
+
+.columns
+{
+	margin: 10px;
+}
+
+.head-title
+{
+	font-size: 100.45px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.head-title h1 span
+{
+	font-weight: normal;
+}
+
+.head-title b
+{
+	font-size: 49.97px;
+}
+
+.container
+{
+	padding: 10px;
+	margin: auto;
+	width: 2474px;
+	height: 3490px;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.circle
+{
+	display: block;
+	border: 26px solid white;
+	border-radius: 100%;
+	width: 405px;
+	height: 405px;
+	background-color: #006cb4;
+	box-shadow: 0 0 0 1px #006cb4;
+}
+
+.item
+{
+	display: block;
+}
+
+.item-title
+{
+	color: #006cb4;
+	font-size: 82.3px;
+}
+
+.column-left
+{
+	float: left;
+	width : 1100px;
+}
+
+.column-right
+{
+
+}
+
+.item p
+{
+	font-size: 30.86px;
+}
+
+.item span
+{
+	font-weight: bold;
+}
+
+.contact-table p
+{
+	display: table;
+	font-size: 41.15px;
+}
+
+.contact-table-row
+{
+	display: table-row;
+}
+
+.contact-table-cell
+{
+	display: table-cell;
+}
+
+.contact-left-cell,.item-title
+{
+	text-transform: uppercase;
+	color: #006cb4;
+	width: 250px;
+}

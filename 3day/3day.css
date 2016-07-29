@@ -1,0 +1,33 @@
+
+.table
+{
+	display: table;
+	background: white;
+}
+
+.row,.row-head,.row-even
+{
+	display: table-row;
+}
+
+.row-head
+{
+	font-weight: bold;
+}
+
+.cell,.cell-value
+{
+	display: table-cell;
+	padding: 1px;
+}
+
+.row-even
+{
+	background-color: #FEF2E2;
+}
+
+.cell-value
+{
+	width: 200px;
+}
+
