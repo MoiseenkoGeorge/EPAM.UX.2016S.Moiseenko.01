@@ -1,9 +1,18 @@
 body 
 {
-  font-family: 'Droid Sans', sans-serif;
+  font-family: 'Myriad Pro', sans-serif;
   background-color: #FAE19D
 }
 
+.container
+{
+	padding: 4%;
+	margin: 10% auto;
+	width: 1420px;
+	height: 1754px;
+	background-color: white;
+	box-sizing: border-box;
+}
 
 .head-title
 {
@@ -12,6 +21,11 @@ body
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
+}
+
+h1.head-title
+{
+	height: 75px;
 }
 
 .head-title h1 span
@@ -24,31 +38,34 @@ body
 	font-size: 25px;
 }
 
-.container
-{
-	padding: 50px;
-	margin: auto;
-	width: 1240px;
-	height: 1754px;
-	background-color: white;
-	box-sizing: border-box;
-}
-
 .circle
 {
 	margin: auto;
 	display: block;
-	border: 13px solid white;
-	border-radius: 50%;
 	width: 202px;
 	height: 202px;
+}
+
+.circle,.item-circle
+{
+	border: 13px solid white;
+	border-radius: 50%;
 	background-color: #006cb4;
 	box-shadow: 0 0 0 1px #006cb4;
 }
 
-.item
+
+.item-wrapper
 {
-	display: block;
+	height: 100px;
+}
+
+.item-circle
+{
+	display: inline-block;
+	border: 2px solid white;
+	width: 40px;
+	height: 40px;
 }
 
 .item-title
@@ -58,15 +75,19 @@ body
 	font-size: 41px;
 }
 
-.column-left
+.column-left, .column-right, .software-column
 {
 	float: left;
-	width : 550px;
 }
 
-.column-right
+.column-left, .column-right
 {
+	width : 600px;
+}
 
+.column-left
+{
+	margin-right: 10px;
 }
 
 .item p
@@ -77,6 +98,14 @@ body
 .item span
 {
 	font-weight: bold;
+}
+
+.item h3
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 25.72px;
 }
 
 .contact-table p
@@ -95,11 +124,26 @@ body
 	display: table-cell;
 }
 
-.contact-left-cell,.item-title
+.contact-left-cell,.item-title,.list h3,.list h4
 {
 	text-transform: uppercase;
+	font-weight: bold;
 	color: #006cb4;
 }
+
+.list h3 span,.list h4, .software-list h4
+{
+	color: black;
+	font-weight: normal;
+}
+
+.list h3, .list h4, .software-list h4
+{
+	display: block;
+	height: 5px;
+	font-size: 25.72px;
+}
+
 
 .contact-left-cell
 {
@@ -111,7 +155,55 @@ body
 	display: inline-block;
 	margin-bottom: 13px;
 	background-color: #006cb4;
-	color: #006cb4;
-	width: 250px;
+	width: 200px;
 	height: 5px;
+}
+
+.dotted-progress-bar
+{
+	padding-left: 60px;
+}
+
+.dotted-progress-bar li
+{
+	display: inline-block;
+	background-color: #e6e6e6;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-right: 5px;
+}
+
+.dotted-progress-bar .active-circle
+{
+	background-color: #006cb4;
+}
+
+.software-list, .list
+{
+	list-style-type: none;
+}
+
+.progress-bar
+{
+	height: 22px;
+	width: 250px;
+	margin-bottom: 22px;
+	background-color: #f5f5f5;
+	border-radius: 4px;
+}
+
+.progress
+{
+  width: 50%;
+  height: 100%;
+  float: left;
+  font-size: 12px;
+  line-height: 20px;
+  background-color: #006cb4;
+}
+
+.software-column
+{
+	margin-right: 30px;
 }
