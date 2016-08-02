@@ -39,7 +39,7 @@ body
 	margin: auto;
 	display: block;
 	border: 13px solid white;
-	border-radius: 100%;
+	border-radius: 50%;
 	width: 202px;
 	height: 202px;
 	background-color: #006cb4;
@@ -103,7 +103,7 @@ body
 
 .contact-left-cell
 {
-	width: 125px;
+	width: 150px;
 }
 
 .line
