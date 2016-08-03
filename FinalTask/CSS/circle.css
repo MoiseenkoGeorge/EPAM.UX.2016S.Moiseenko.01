@@ -1,0 +1,55 @@
+
+.circle
+{
+	margin: auto;
+	width: 202px;
+	height: 202px;
+}
+
+.circle,.item-circle
+{
+	border: 13px solid white;
+	border-radius: 50%;
+	background-color: #006cb4;
+	box-shadow: 0 0 0 1px #006cb4;
+}
+.item-circle
+{
+	display: inline-block;
+	border-width: 3px;
+	width: 62px;
+	height: 62px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%
+}
+
+.item-circle-skills
+{
+	background-image: url('../content/skills.png');
+}
+
+.item-circle-profile
+{
+	background-image: url('../content/profile.png');
+}
+
+.item-circle-contact
+{
+	background-image: url('../content/contact.png');
+}
+
+.item-circle-education
+{
+	background-image: url('../content/education.png');
+}
+
+.item-circle-experience
+{
+	background-image: url('../content/experience.png');
+}
+
+.item-circle-software
+{
+	background-image: url('../content/software.png');
+}
