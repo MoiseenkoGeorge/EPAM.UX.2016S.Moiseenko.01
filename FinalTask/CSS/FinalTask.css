@@ -74,11 +74,10 @@ h1, h2, h3, h4, p
 
 .item-wrapper
 {
+	padding-top: 1px;
 	margin-bottom: 15px;
 	height: 68px;
 }
-
-
 
 .item-title
 {
@@ -94,6 +93,7 @@ h1, h2, h3, h4, p
 	overflow: hidden;
 	background-color: #006cb4;
 	height: 5px;
+	margin-top: 30px;
 }
 
 h2.item-title
@@ -224,3 +224,18 @@ footer
 	right: 0;
 }
 
+@media screen and (max-width:685px) 
+{
+	.container
+	{
+		margin: 0;
+		width: 100%
+	}
+
+	.column-left, .column-right
+	{
+		margin: 0;
+		width: 100%;
+		float: none
+	}
+}
