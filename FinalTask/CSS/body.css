@@ -1,0 +1,48 @@
+html
+{
+	height: 100%
+}
+
+body 
+{
+  font-family: 'Myriad Pro', sans-serif;
+  background-color: #FAE19D;
+  text-overflow: ellipsis;
+  min-height: 100%;
+  position: relative;
+}
+
+h1, h2, h3, h4, p
+{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.clearfix{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+input
+{
+	border: 0px;
+}
+
+.footer
+{
+	height: 38px;
+	width: 100%;
+	background-image: url('../content/freepik-logo.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+a
+{
+	text-decoration: none;
+	color: black;
+}
