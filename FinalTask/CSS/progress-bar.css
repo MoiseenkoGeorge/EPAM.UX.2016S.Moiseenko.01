@@ -1,6 +1,6 @@
 .dotted-progress-bar
 {
-	padding-left: 60px;
+	padding-left: 14%;
 }
 
 .dotted-progress-bar li
@@ -20,7 +20,7 @@
 .progress-bar
 {
 	height: 22px;
-	width: 250px;
+	width: 100%;
 	margin-bottom: 22px;
 	background-color: #f5f5f5;
 	border-radius: 4px;

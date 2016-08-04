@@ -185,6 +185,17 @@ h2.item-title
 	list-style-type: none;
 }
 
+.software-list li:nth-child(odd)
+{
+	margin-right: 10%
+}
+
+.software-list li
+{
+	float: left;
+	width: 45%;
+}
+
 .list li
 {
 	list-style: none;
