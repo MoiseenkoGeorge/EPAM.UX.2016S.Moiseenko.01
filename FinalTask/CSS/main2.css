@@ -7,6 +7,34 @@
 	padding-bottom: 90px;
 }
 
+.item:nth-child(odd)
+{
+	width: 34%;
+	float: left;
+}
+
+.item:nth-child(even)
+{
+	float: right;
+	margin-right: 5%;
+	width: 51%;
+}
+
+.item:nth-child(odd), .item:nth-child(even)
+{
+	margin-left: 5%;
+}
+
+.item:nth-child(even) .item-wrapper
+{
+	margin-bottom: 4%;
+}
+
+.item:nth-child(-n+2)
+{
+	margin-top: 5%;
+}
+
 .column-left
 {
 	width : 31%;
@@ -32,7 +60,7 @@
 
 .avatar
 {
-	padding-bottom: 7%;
+	padding-bottom: 5%;
 	padding-top: 3%;
 }
 
@@ -54,6 +82,7 @@
 .head-title h1 span
 {
 	font-weight: normal;
+	display: block;
 }
 
 .head-title h2
@@ -64,7 +93,7 @@
 .item
 {
 	min-width: 300px;
-	margin-bottom: 12%;
+	margin-bottom: 3%;
 }
 
 .item-wrapper
@@ -96,7 +125,7 @@ h2.item-title
 	margin: 0;
 	margin-left: 12px;
 	line-height: 68px;
-	max-width: 300px;
+	max-width: 75%;
 }
 
 .item p
@@ -149,6 +178,13 @@ h2.item-title
 	color: #006cb4;
 }
 
+.contact-left-cell
+{
+	display: block;
+	height: 50px;
+	width: 150px;
+}
+
 .list h3 span,.list h4, .software-list h4
 {
 	color: black;
@@ -171,13 +207,6 @@ h2.item-title
 .software-list h4
 {
 	margin-bottom: 10px;
-}
-
-.contact-left-cell
-{
-	display: inline-block;
-	height: 50px;
-	width: 150px;
 }
 
 .software-list
@@ -209,22 +238,30 @@ h2.item-title
     margin-top: 5px;
     background: black;
     border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 3.4%;
+	padding-top: 3.4%; 
 }
 
-@media screen and (max-width:700px) 
+@media (max-width: 950px) 
 {
+
 	.container
 	{
 		margin: 0;
 		width: 100%
 	}
 
-	.column-left, .column-right
+	.circle
 	{
-		margin: 0;
-		width: 100%;
+		padding-top: 0px;
+		width: 226px;
+		height: 226px;
+	}
+
+	.item:nth-child(odd), .item:nth-child(even)
+	{
+		margin: auto;
+		width: 85%;
 		float: none
 	}
 }

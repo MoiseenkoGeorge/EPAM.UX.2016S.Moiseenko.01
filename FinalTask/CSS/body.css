@@ -10,15 +10,21 @@ body
   text-overflow: ellipsis;
   min-height: 100%;
   position: relative;
+  min-width: 500px;
 }
 
-h1, h2, h3, h4, p
+h1, h2, h3, h4, p, input
 {
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
+
+input, a
+{
+	width: 100%;
+}
+
 .clearfix{
-	content: "";
 	display: table;
 	clear: both;
 }
@@ -26,6 +32,7 @@ h1, h2, h3, h4, p
 input
 {
 	border: 0px;
+	max-width: 300px;
 }
 
 .footer

@@ -2,8 +2,9 @@
 .circle
 {
 	margin: auto;
-	width: 202px;
-	height: 202px;
+	width: 47.5%;
+	padding-top: 47.5%;
+	max-width: 226px;
 }
 
 .circle,.item-circle
