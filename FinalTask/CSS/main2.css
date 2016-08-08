@@ -35,29 +35,6 @@
 	margin-top: 5%;
 }
 
-.column-left
-{
-	width : 31%;
-	margin-right: 3%;
-}
-
-.column-right
-{
-	width: 45%;
-}
-
-.column-left, .column-right
-{
-	margin-top: 6%;
-	margin-left: 7%;
-	margin-bottom: 6%;
-}
-
-.column-right .item-wrapper
-{
-	margin-bottom: 40px;
-}
-
 .avatar
 {
 	padding-bottom: 5%;
@@ -148,7 +125,7 @@ h2.item-title
 }
 
 
-.column-left, .column-right, .software-column, .item-circle, h2.item-title, .progress, .list li::before
+.software-column, .item-circle, h2.item-title, .progress, .list li::before
 {
 	float: left;
 }
@@ -202,6 +179,11 @@ h2.item-title
 .list h3
 {
 	margin-bottom: 5px;
+}
+
+.list h3.black
+{
+	color: black;
 }
 
 .software-list h4

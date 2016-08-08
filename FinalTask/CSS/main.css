@@ -167,6 +167,11 @@ h2.item-title
 	margin-bottom: 5px;
 }
 
+.list h3.black
+{
+	color: black;
+}
+
 .software-list h4
 {
 	margin-bottom: 10px;
